@@ -1,0 +1,183 @@
+:root {
+  --main-color: #ff006e;
+  --second-color: #fb5607;
+
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: 'Montserrat-Black';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2,
+h3{
+  font-family: "Montserrat-Bold";
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+#title {
+  background-color: var(--main-color);
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* DownloadButtons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGES */
+
+.title-image {
+  width: 60%;
+  margin-left: 90px;
+  transform: rotate(23deg);
+  position: relative;
+  z-index: 1;
+  margin-bottom: -80px;
+}
+
+/* features */
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.fa-solid {
+  color: var(--second-color);
+  margin-left: 8%;
+  margin-bottom: 1rem;
+}
+
+.fa-solid:hover {
+  color: var(--main-color);
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+  text-align: center;
+  background-color: var(--second-color);
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS SECTION */
+
+#press{
+  background-color: var(--second-color);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+ padding: 100px;
+ text-align: center;
+}
+
+/* CTA */
+
+#cta{
+  text-align: center;
+  background-color: var(--main-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.title-cta{
+  text-align: center;
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.btn-cta{
+  margin-right: 15px;
+}
+
+/* FOOTER */
+
+#footer{
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.social-icon:hover{
+  cursor: pointer;
+}
+
+.social-icon {
+  margin: 10px 10px;
+}
+
+@media(max-width: 1028px) {
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-left: 40px;
+  }
+
+  .text-home{
+    text-align: center;
+  }
+
+  .download-button {
+     margin-left: 60px;
+  }
+
+}
